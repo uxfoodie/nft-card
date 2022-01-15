@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+
+:root {
+    --primary-color: hsl(217, 54%, 11%);
+}
+
+body {
+    background: var(--primary-color);
+    color: aliceblue;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.main-container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.heading {
+    font-size: 1.2em;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+.row {
+    display: flex;
+    width: auto;
+    place-content: space-between;
+}
+
+
+.price-div {
+    display: flex;
+    align-items: center;
+
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    margin-left: .5em;
+
+}
+
+.timeline {
+    font-size: smaller;
+    margin-left: .5em;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.price::before {
+    background-image: url ('../images/icon-ethereum.svg');
+    width: 1em;
+
+}
+
+hr {
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    color: hsl(215, 51%, 70%);
+    opacity: .5;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.avi {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+h5 {
+    font-weight: lighter;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+span {
+    opacity: 1;
+    font-weight: 300;
+    color: white;
+
+}
+
+footer {
+    display: none;
+}
