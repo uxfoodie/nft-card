@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Screenshot 2022-01-15 at 15.50.58.png)
+![](images/img1.png)
 
 
 
@@ -44,11 +44,11 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-![](images/Screenshot 2022-01-15 at 15.51.08.png)
+![](images/img2.png)
 
 # Mobile view with hover state
 
-![](images/Screenshot 2022-01-15 at 15.51.48.png)
+![](images/img3.png)
 
 ### What I learned
 
