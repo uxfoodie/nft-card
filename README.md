@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/Screenshot 2022-01-15 at 15.50.58.png)
 
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- View live site [here](https://uxfoodie-nft-card.netlify.app/)
 
 ## My process
 
@@ -44,7 +44,11 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
+![](images/Screenshot 2022-01-15 at 15.51.08.png)
 
+# Mobile view with hover state
+
+![](images/Screenshot 2022-01-15 at 15.51.48.png)
 
 ### What I learned
 
@@ -58,3 +62,6 @@ I want to learn flexbox next. I really love my progress.
 
 ## Author
 
+- Website - [Blessing Ojediran](https://uxfoodie.myportfolio.com)
+- Frontend Mentor - [@uxfoodie](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@uxfoodie_](https://www.twitter.com/yourusername)
