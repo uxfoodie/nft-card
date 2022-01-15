@@ -14,26 +14,63 @@ body {
 .main-container {
     background-color: hsl(216, 50%, 16%);
     width: 300px;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 1em;
     padding: 1.5em;
 }
 
-.hero-img {
-    width: 100%;
-    border-radius: 1em;
+.overlay {
+    background-color: hsl(178, 100%, 50%);
+    width: 300px;
+    opacity: 0;
+
+    border-radius: inherit;
+
 }
+
+.overlay:hover {
+    opacity: .5;
+}
+
+.hero {
+    background-image: url('images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+
+    display: flex;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+
+    cursor: pointer;
+
+}
+
+
+
+
 
 .heading {
     font-size: 1.2em;
+    line-height: 1.2em;
+    cursor: pointer;
+}
+
+.heading:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .description {
     color: hsl(215, 51%, 70%);
     font-weight: 100;
     line-height: 1.5em;
+
+    margin-top: 0;
 }
 
 .row {
@@ -65,7 +102,6 @@ body {
 .price::before {
     background-image: url ('../images/icon-ethereum.svg');
     width: 1em;
-
 }
 
 hr {
@@ -74,6 +110,7 @@ hr {
     margin-bottom: 1em;
     color: hsl(215, 51%, 70%);
     opacity: .5;
+    width: 100%;
 }
 
 .author {
@@ -101,8 +138,119 @@ span {
     font-weight: 300;
     color: white;
 
+    cursor: pointer;
+
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 footer {
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        width: 250px;
+        margin-top: 10%;
+        border-radius: 1em;
+        padding: 1.4em;
+    }
+    
+    .overlay {
+        width: 250px;
+    
+    }
+    
+    .hero {
+        background-size: 250px 250px;
+    
+        width: 250px;
+        height: 250px;
+        border-radius: 1em;
+    
+    }
+    
+    .heading {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    
+
+    .description {
+        color: hsl(215, 51%, 70%);
+        font-weight: 100;
+        font-size: .9em;
+        line-height: 1.4em;
+    }
+    
+    .row {
+        display: flex;
+        width: auto;
+        place-content: space-between;
+    }
+    
+    
+    .price-div {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .price {
+        color: hsl(178, 100%, 50%);
+        margin-left: .5em;
+    
+    }
+    
+    .timeline {
+        font-size: smaller;
+        margin-left: .5em;
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+    }
+    
+    .price::before {
+        background-image: url ('../images/icon-ethereum.svg');
+        width: 1em;
+    }
+    
+    hr {
+        margin: auto;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        color: hsl(215, 51%, 70%);
+        opacity: .5;
+        width: 100%;
+    }
+    
+    .author {
+        display: flex;
+        align-items: center;
+    }
+    
+    .avi {
+        width: 2em;
+        height: 2em;
+        margin-right: 1em;
+        border: 1px solid white;
+        border-radius: 50%;
+        
+    }
+    
+    h5 {
+        font-weight: lighter;
+        font-size: .8em;
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+    }
+    
+    span {
+        opacity: 1;
+        font-weight: 300;
+        color: white;
+    
+        cursor: pointer;
+
 }
